@@ -1,4 +1,4 @@
-package dgx.albert.sort;
+package org.albertryu.utils.sort;
 
 public class InsertionSort {
 	/**********************

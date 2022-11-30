@@ -1,4 +1,4 @@
-package dgx.albert.search;
+package org.albertryu.utils.search;
 
 public class BinarySearch {
 	/*********************
