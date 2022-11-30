@@ -1,9 +1,13 @@
-package dgx.albert.sort;
+package org.albertryu;
 
 import java.util.Date;
 import java.util.Arrays;
 
-import dgx.albert.input.GetNumber;
+import org.albertryu.utils.input.GetNumber;
+import org.albertryu.utils.sort.BubbleSort;
+import org.albertryu.utils.sort.InsertionSort;
+import org.albertryu.utils.sort.MergeSort;
+import org.albertryu.utils.sort.SelectionSort;
 
 public class SortSpeedTest {
 	static int MAX = 65536;
@@ -30,20 +34,20 @@ public class SortSpeedTest {
 			System.out.print(val+" ");
 		}
 
-		/*Date t1 = new Date();
+		Date t1 = new Date();
 		//bubble排序1
 		BubbleSort.bubbleSort(copyArray[0]);
 		Date t2 = new Date();
-		
+
 		Date t3 = new Date();
 		//Selection排序2
 		SelectionSort.seleSort(copyArray[1]);
 		Date t4 = new Date();
-		
+
 		Date t5 = new Date();
 		//Insertion排序3
 		InsertionSort.inserSort(copyArray[2]);
-		Date t6 = new Date();*/
+		Date t6 = new Date();
 		
 		Date t7 = new Date();
 		//merge排序4
@@ -62,9 +66,9 @@ public class SortSpeedTest {
 			System.out.print(val+" ");
 		}
 		
-/*		System.out.println("\nBubble"+(t2.getTime()-t1.getTime())+"ms");
-		System.out.println("SeleSort"+(t4.getTime()-t3.getTime())+"ms");
-		System.out.println("InserSort"+(t6.getTime()-t5.getTime())+"ms");*/
+		System.out.println("\nBubble="+(t2.getTime()-t1.getTime())+"ms");
+		System.out.println("SeleSort="+(t4.getTime()-t3.getTime())+"ms");
+		System.out.println("InserSort="+(t6.getTime()-t5.getTime())+"ms");
 		System.out.println("MergeSort="+(t8.getTime()-t7.getTime())+"ms");
 		System.out.println("Arrays.Sort="+(t10.getTime()-t9.getTime())+"ms");
 	}
