@@ -1,7 +1,6 @@
 # java-sort-algorithm
 初學 java 時練習實作 Soring Algorithm 及 Search Algorithm
 - 使用到 Scanner 讓使用者透過 console 輸入參數
-- 開發的當下還沒學到 Collection 的章節, 集合的操作都是土法煉鋼使用 Array 操作
 
 ## Run
 - Sort 執行 org.albertryu.SortSpeedTest#main
